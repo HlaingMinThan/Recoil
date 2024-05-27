@@ -23,9 +23,9 @@ function TodoItemCreator() {
     };
 
     return (
-        <div>
+        <div style={{ display: "flex", alignItems: "center" }}>
             <input type="text" value={inputValue} onChange={onChange} placeholder="Add todo" />
-            <button onClick={addItem}>Add</button>
+            <button onClick={addItem}>+</button>
         </div>
     );
 }
