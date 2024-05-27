@@ -30,7 +30,7 @@ function TodoItem({ item }) {
     };
 
     return (
-        <div>
+        <div style={{ display: "flex", alignItems: "center" }}>
             <input type="text" value={item.name} onChange={editItemText} />
             <input
                 type="checkbox"
